@@ -1,0 +1,39 @@
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    color: #99979c;
+    text-align: center;
+    background-color: #2a2730;
+    flex: 0 0  auto;
+}
+
+footer>div>ul{
+    display: block;
+    height: 30px;
+}
+footer>div>ul>li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+a {
+    color: white;
+}
+
+a:active, a:visited {
+    color: white;
+}
+.posts {
+    margin-bottom: 20px;
+    min-height: 57%;
+}
+
+.post {
+    border-bottom: 1px solid #e5e9ef;
+    margin-bottom: 10px;
+}
