@@ -21,16 +21,20 @@ footer>div>ul>li {
     font-size: 17px;
 }
 
-a {
+.footer-link {
     color: white;
 }
 
-a:active, a:visited {
+.footer-link:active, .footer-link:visited, .footer-link:hover {
     color: white;
 }
 .posts {
     margin-bottom: 20px;
     min-height: 57%;
+}
+
+.post>a {
+    color: lightgrey;
 }
 
 .post {
