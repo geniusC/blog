@@ -1,16 +1,11 @@
 ---
 layout: home
 ---
-<html>
-  <body>
 {% include_relative header.html %}
-  <div class="posts">
 {% for post in site.posts %}
+  <div class="post">
       <a href="{{ post.url }}">{{ post.title }}</a>
       {{ post.excerpt }}
+  </div>
   {% endfor %}
-</div>
 {% include_relative footer.html %}
-  </body>
-
-</html>
