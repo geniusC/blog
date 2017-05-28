@@ -14,7 +14,7 @@ footer>div>ul{
 }
 footer>div>ul>li {
     list-style-type: none;
-    float: left;
+    display: inline-block;
     margin-right: 20px;
     text-decoration: none;
     line-height: 30px;
