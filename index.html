@@ -3,7 +3,6 @@ layout: my_home
 ---
 {% for post in site.posts %}
   <div class="post">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
+      <a href="{{ post.url }}">{{ post.excerpt }}<a>
   </div>
   {% endfor %}
