@@ -47,3 +47,12 @@ footer>div>ul>li {
     border-bottom: 1px solid #e5e9ef;
     margin-bottom: 10px;
 }
+
+.post-title {
+    color: grey;
+    font-size: 15px;
+}
+
+.post-note {
+    color: lightgrey;
+}
