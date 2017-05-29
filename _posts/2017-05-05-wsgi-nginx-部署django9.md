@@ -1,6 +1,6 @@
 ---
 layout: post
-title: wsgi+nginx部署django项目
+title: hehee
 tags: python
 ---
 <h2>{{ page.title }}</h2>
