@@ -7,6 +7,6 @@ title: chsxx
       <a href="{{  post.url  | absolute_url }}">
         <p class="post-title">{{ post.title}}</p>
       </a>
-      <p class="post-note"> {% for tag in post.tags %}<span class="glyphicon glyphicon-tag"> {{ tag }} </span> {% endfor %} <span class="pull-right">posted in {{ post.date | date_to_string }} </span></p>
+      <p class="post-note"> <span class="glyphicon glyphicon-tags">{% for tag in post.tags %}{{ tag }}, {% endfor %}  </span> <span class="pull-right">posted in {{ post.date | date_to_string }} </span></p>
   </div>
   {% endfor %}
