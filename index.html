@@ -12,18 +12,18 @@ title: chsxx
   </div>
   {% endfor %}
 </div>
-<div class="pagination">
+<nav aria-label="...">
+  <ul class="pager">
   {% if paginator.previous_page %}
   {% if paginator.previous_page == 1 %}
-    <a href="/blog" class="previous">Previous</a>
+   <li class="previous"> <a href="/blog" class="previous">Previous</a> </li>
     {% else %}
-    <a href="/blog{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    <li class="previous"><a href="/blog{{ paginator.previous_page_path }}" class="previous">Previous</a> </li>
   {% endif %}
   {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="/blog{{ paginator.next_page_path }}" class="next">Next</a>
+    <li class="next"> <a href="/blog{{ paginator.next_page_path }}" class="next">Next</a> </li>
   {% endif %}
-</div>
-
+  </ul>
+</nav>
 
