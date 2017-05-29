@@ -4,6 +4,12 @@ title: chsxx
 ---
 {% for post in site.posts %}
   <div class="post">
-      <a href="{{  post.url  | absolute_url }}">{{ post.excerpt }}</a>
+      <a href="{{  post.url  | absolute_url }}">{{ post.title}}
+        
+      </a>
   </div>
+  {% endfor %}
+
+  {% for tag  in size.tags.TAG %}
+    <span > tag </span>
   {% endfor %}
