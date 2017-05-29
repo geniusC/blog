@@ -4,12 +4,13 @@ title: chsxx
 ---
 {% for post in site.posts %}
   <div class="post">
-      <a href="{{  post.url  | absolute_url }}">{{ post.title}}
-        
+      <a href="{{  post.url  | absolute_url }}">
+        <p>{{ post.title}}</p>
       </a>
+      <span>{{ post.date }} {{ post.tags }}</span>
   </div>
   {% endfor %}
 
-  {% for tag  in size.tags.TAG %}
+  {% for tag  in site.tags.TAG %}
     <span > tag </span>
   {% endfor %}
