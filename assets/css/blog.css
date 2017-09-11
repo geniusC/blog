@@ -1,6 +1,7 @@
 footer{
     padding-top: 20px;
     padding-bottom: 0;
+    margin-bottom: 0;
     margin-top: 100px;
     color: #99979c;
     text-align: center;
@@ -30,7 +31,7 @@ footer>div>ul{
     color: white;
 }
 .content {
-    min-height: 57%;
+    min-height: 60%;
 }
 .posts {
     margin-bottom: 20px;
