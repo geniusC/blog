@@ -13,7 +13,7 @@ footer>div>ul{
     height: 30px;
 }
 
-.footer>div>ul>li {
+footer>div>ul>li {
     list-style-type: none;
     display: inline-block;
     margin-right: 20px;
