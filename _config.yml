@@ -1,8 +1,3 @@
 paginate: 5
 
-kramdown:
-  input: GFM
-  extensions:
-    - autolink
-    - footnotes
-    - smart
+markdown: redcarpet
