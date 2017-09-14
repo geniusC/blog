@@ -1,3 +1,7 @@
 paginate: 5
 
-markdown: redcarpet
+kramdown:
+  footnote_nr:    1
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
