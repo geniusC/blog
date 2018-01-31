@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $('img').addClass('img-responsive center-block')
+    $('div.content img').addClass('img-responsive center-block')
     $('table').addClass('table table-striped')
 })
