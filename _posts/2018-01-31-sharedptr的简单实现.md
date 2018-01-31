@@ -20,7 +20,7 @@ sharedptr的简单实现
 实现
 ------
 
-{% highlight  c++ linenos%}
+```c++
 template<typename T>
 class SharedPointer
 {
@@ -80,4 +80,4 @@ SharedPointer<T>::~SharedPointer()
     	delete obj;
     }
 }
-{% endhighlight %}
+```
