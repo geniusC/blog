@@ -20,7 +20,7 @@ sharedptr的简单实现
 实现
 ------
 
-{% highlight  c++ %}
+{% highlight  c++ linenos%}
 template<typename T>
 class SharedPointer
 {
