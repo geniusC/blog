@@ -7,7 +7,6 @@
     <meta name="Description" content="{{page.title}}">
     <meta name="Keywords" content="{% for tag in page.tags %}{{tag}}{{","}}{% endfor %}chsx">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-    <link href="//cdn.bootcss.com/prettify/r298/prettify.min.css" rel="stylesheet">  
     <link href="{{"/favicon.ico"| absolute_url }}"  mce_href="{{"/favicon.ico"| absolute_url }}" rel="bookmark" type="image/x-icon" /> 
     <link href="{{"/favicon.ico"| absolute_url }}"  mce_href="f{{"/favicon.ico"| absolute_url }}" rel="icon" type="image/x-icon" /> 
     <link href="{{"/favicon.ico"| absolute_url }}" mce_href="{{"/favicon.ico"| absolute_url }}"  rel="shortcut icon" type="image/x-icon" />
@@ -15,7 +14,7 @@
     <title>{{ page.title }}</title>
 </head>
 
-<body onload="prettyPrint()">
+<body>
     {%include header.html %}
     <div class="container content">
         <div class="row">
@@ -31,6 +30,5 @@
 </body>
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="//cdn.bootcss.com/prettify/r298/prettify.min.js"></script>  
 <script src="{{"/assets/js/post.js" | absolute_url }}"></script>
 </html>
