@@ -69,14 +69,14 @@ SharedPointer<T>& SharedPointer<T>::operator= (const SharedPointer<T> &ptr)
 	return *this;
 }
 template<typename T>
-    SharedPointer<T>::~SharedPointer()
+SharedPointer<T>::~SharedPointer()
+{
+    *counter -= 1;
+    cout << "call sharedptr's desconstructer: counter = " << *counter << endl;
+    if (*counter == 0)
     {
-    	*counter -= 1;
-    	cout << "call sharedptr's desconstructer: counter = " << *counter << endl;
-    	if (*counter == 0)
-    	{
-    		delete counter;
-    		delete obj;
-    	}
+    	delete counter;
+    	delete obj;
     }
+}
 ```
