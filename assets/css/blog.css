@@ -38,11 +38,11 @@ footer>div>ul>li {
 }
 
 .post>a, .post>a:active .post>a:visited {
-    color: grey;
+    color: rgb(58, 57, 57);
     text-decoration: none;
 }
 .post>a:hover {
-    color: #353535;
+    color: #000000;
 } 
 
 .post {
