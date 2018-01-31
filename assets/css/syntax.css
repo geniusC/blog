@@ -1,3 +1,6 @@
+div[class="highlight"] {
+  background: #000000;
+}
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .gh {
