@@ -9,7 +9,7 @@ tags: c++ java
       <a href="{{  post.url  | absolute_url }}">
         <p class="post-title">{{ post.title}}</p>
       </a>
-      <p class="post-note"> <span class="glyphicon glyphicon-tags"> {% for tag in post.tags %}{{tag}} {% endfor %}</span> <span class="pull-right"> {{ post.date | date: "%Y %m %d " }}</span></p>
+      <p class="post-note"> <span class="glyphicon glyphicon-tags"> {% for tag in post.tags %}{{tag}} {% endfor %}</span> <span class="pull-right"> {{ post.date | date: "%Y-%m-%d " }}</span></p>
   </div>
   {% endfor %}
 </div>
