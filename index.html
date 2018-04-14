@@ -17,13 +17,13 @@ tags: c++ java
   <ul class="pager">
   {% if paginator.previous_page %}
   {% if paginator.previous_page == 1 %}
-   <li class="previous"> <a href="/blog" class="previous">Previous</a> </li>
+   <li class="previous"> <a href="/" class="previous">&larr;</a> </li>
     {% else %}
-    <li class="previous"><a href="/blog{{ paginator.previous_page_path }}" class="previous">Previous</a> </li>
+    <li class="previous"><a href="{{ paginator.previous_page_path }}" class="previous">&larr;</a> </li>
   {% endif %}
   {% endif %}
   {% if paginator.next_page %}
-    <li class="next"> <a href="/blog{{ paginator.next_page_path }}" class="next">Next</a> </li>
+    <li class="next"> <a href="{{ paginator.next_page_path }}" class="next">&rarr;</a> </li>
   {% endif %}
   </ul>
 </nav>
