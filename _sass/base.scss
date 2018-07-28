@@ -51,10 +51,13 @@ li {
 
 header {
   background: rgba(0, 0, 0, 0.1);
-  border-bottom: 1px dashed $conifer; //header;
+  border-bottom:  1px dashed $conifer; //header;
   padding: 20px;
   margin: 0 0 40px 0;
 }
+header a {
+  text-decoration: none;
+} 
 
 .header-links {
   text-align: center;
@@ -92,6 +95,11 @@ header h2 {
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
+
+#main_content a {
+  text-decoration: none
+}
+
 section img {
   max-width: 100%
 }
