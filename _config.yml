@@ -1,9 +1,10 @@
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+<<<<<<< HEAD
+title: ChenSiYu
+description: "chensiyu's blog"
 author:
-  name: "SomeHacker"
-  email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  name: "chensiyu"
+  email: "sy.chen@live.it"
+  url: "https:chensiyu.co"
 
 baseurl: /
 
@@ -28,5 +29,24 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
+owner : "chensiyu"
 year : "2018"
+=======
+permalink: /:year:month:day/:title
+url: https://chensiyu.co
+
+# variables
+name: chensiyu.io
+description: 
+google_verification: null
+
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+>>>>>>> fba0527f1f5f33198348e503ce56a98b70fa745d
